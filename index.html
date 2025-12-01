@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Om Patel | Aspiring DevOps Engineer</title>
+  <style>
+    :root {
+      --primary: #6366f1;
+      --dark: #0f172a;
+      --light: #f8fafc;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      color: var(--light);
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 5rem 1rem 3rem;
+      background: linear-gradient(to right, #6366f1, #8b5cf6);
+      clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    }
+    h1 {
+      font-size: 3.5rem;
+      margin: 0;
+    }
+    .tagline {
+      font-size: 1.4rem;
+      opacity: 0.9;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    section {
+      margin: 4rem 0;
+      padding: 2rem;
+      background: rgba(255,255,255,0.05);
+      border-radius: 16px;
+      backdrop-filter: blur(10px);
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .skill-card {
+      background: rgba(99, 102, 241, 0.2);
+      padding: 1.5rem;
+      border-radius: 12px;
+      border: 1px solid rgba(99, 102, 241, 0.4);
+    }
+    a {
+      color: #a78bfa;
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    footer {
+      text-align: center;
+      padding: 3rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>OM PATEL</h1>
+    <p class="tagline">Aspiring DevOps Engineer • AWS • Docker • CI/CD • Linux</p>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>About Me</h2>
+      <p>
+        MSc IT student at Babu Madhav Institute of Information Technology, Uka Tarsadia University.<br>
+        Passionate about cloud infrastructure, automation, containerization and building scalable CI/CD pipelines.
+      </p>
+      <p>
+        <strong>Contact:</strong> +91 9510248682 • 
+        <a href="mailto:ompf2004@gmail.com">ompf2004@gmail.com</a><br>
+        <a href="https://github.com/ompatel-2004" target="_blank">github.com/ompatel-2004</a> • 
+        <a href="https://linkedin.com/in/ompatel242004" target="_blank">linkedin.com/in/ompatel242004</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Cloud & Container</h3>
+          <p>AWS (VPC, EC2, S3), Docker, Multi-stage builds</p>
+        </div>
+        <div class="skill-card">
+          <h3>CI/CD</h3>
+          <p>GitHub Actions • GitLab CI • Automation Pipelines</p>
+        </div>
+        <div class="skill-card">
+          <h3>Infra & OS</h3>
+          <p>Linux, Shell Scripting, Networking (VPC Peering, Security Groups)</p>
+        </div>
+        <div class="skill-card">
+          <h3>Languages & Tools</h3>
+          <p>Python • C# • MySQL • Git • VS Code • Figma</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Featured Projects</h2>
+      <p>
+        <strong>E-commerce (Lifestyle)</strong> — Full-stack shopping platform with admin panel<br>
+        <a href="https://github.com/ompatel-2004/Ecommerce-" target="_blank">GitHub Repository</a>
+      </p>
+      <p>
+        <strong>Two-Tier Flask + MySQL Docker App</strong> — Multi-stage Docker build & container networking<br>
+        <a href="https://github.com/ompatel-2004/..." target="_blank">GitHub Repository</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>Currently Learning</h2>
+      <p>Ansible • Kubernetes • Terraform • Azure • Monitoring tools</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 Om Patel — Built with HTML & deployed via GitHub Pages</p>
+  </footer>
+</body>
+</html>
