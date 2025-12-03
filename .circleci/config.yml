@@ -4,7 +4,7 @@ jobs:
   build:
     docker:
         - image: circleci/html:latest
-      steps:
+    steps:
         - checkout
         - run:
             name: Echo build project
