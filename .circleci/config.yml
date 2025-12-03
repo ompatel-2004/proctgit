@@ -3,17 +3,14 @@ version: 2.1
 jobs:
   build:
     docker:
-        - image: circleci/html:latest
-    steps:
-        - checkout
-        - run:
-            name: Echo build project
-            command:
-              echo "New version 2.1"
-              echo "Run with HTML tools"
-
+      - image: cimg/base:stable   
+    steps:                         
+      - checkout
+      - run:
+          name: Test
+          command: echo "Hello"
+          
 workflows:
-  version: 2.1
-  build_now:
+  workflow:
     jobs:
       - build
